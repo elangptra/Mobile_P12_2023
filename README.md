@@ -327,3 +327,6 @@ Tambahkan widget seperti kode berikut.
 
 Terakhir, run atau tekan F5 untuk melihat hasilnya jika memang belum running. Bisa juga lakukan hot restart jika aplikasi sudah running. Maka hasilnya akan seperti gambar berikut ini.
 
+Penambahan import pada main.dart untuk menghilangkan error
+
+![Alt text](image-39.png)
