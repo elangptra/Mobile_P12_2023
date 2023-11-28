@@ -278,3 +278,52 @@ Pada bagian ini kode tetap seperti berikut.
 ### <b>Langkah 7: Widget build</b>
 
 Pastikan Anda telah merubah ke List dan mengubah nilai pada currentPlan seperti kode berikut ini.
+
+![Alt text](image-30.png)
+
+### <b>Langkah 8: Edit _buildTaskTile</b>
+
+Pastikan ubah ke List dan variabel planNotifier seperti kode berikut ini.
+
+![Alt text](image-31.png)
+
+### <b>Langkah 9: Buat screen baru</b>
+
+Pada folder view, buatlah file baru dengan nama plan_creator_screen.dart dan deklarasikan dengan StatefulWidget bernama PlanCreatorScreen. Gantilah di main.dart pada atribut home menjadi seperti berikut.
+
+![Alt text](image-32.png)
+
+![Alt text](image-33.png)
+
+### <b>Langkah 10: Pindah ke class _PlanCreatorScreenState</b>
+
+Kita perlu tambahkan variabel TextEditingController sehingga bisa membuat TextField sederhana untuk menambah Plan baru. Jangan lupa tambahkan dispose ketika widget unmounted seperti kode berikut.
+
+![Alt text](image-34.png)
+
+### <b>Langkah 11: Pindah ke method build</b>
+
+Letakkan method Widget build berikut di atas void dispose. Gantilah ‘Namaku' dengan nama panggilan Anda.
+
+![Alt text](image-35.png)
+
+### <b>Langkah 12: Buat widget _buildListCreator</b>
+
+Buatlah widget berikut setelah widget build.
+
+![Alt text](image-36.png)
+
+### <b>Langkah 13: Buat void addPlan()</b>
+
+Tambahkan method berikut untuk menerima inputan dari user berupa text plan.
+
+![Alt text](image-37.png)
+
+### <b>Langkah 14: Buat widget _buildMasterPlans()</b>
+
+Tambahkan widget seperti kode berikut.
+
+![Alt text](image-38.png)
+
+Terakhir, run atau tekan F5 untuk melihat hasilnya jika memang belum running. Bisa juga lakukan hot restart jika aplikasi sudah running. Maka hasilnya akan seperti gambar berikut ini.
+
